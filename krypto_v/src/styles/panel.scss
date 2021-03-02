@@ -1,0 +1,72 @@
+div.panel {
+    width: 100%;
+    position: relative;
+    margin-top: 1%;
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+  div.buttonZone {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 1%;
+      button {
+          width: 20%;
+          padding: 10px;
+          font-size: 36px;
+          border: teal 3px solid;
+          background-color: transparent;
+          border-radius: 999px;
+          color: whitesmoke;
+          font-weight: bold;
+         
+      }
+  }
+div.editZone {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    form {
+   
+        input {
+            width: 30px;
+            background-color: whitesmoke;
+        }
+    }
+    h3 {
+    cursor: pointer;
+        padding: 0;
+        margin: 0;
+        width: 30px;
+    }
+}
+  div.info {
+      width: 100%;
+      div {
+          width: 100%;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          margin-top: 30px;
+          i {
+              font-size: 40px;
+          }
+        h1 {
+          margin: 0;
+            &:nth-child(1) {
+              font-size: 40px;
+            }
+            &:nth-child(2) {
+              font-size: 40px;
+            }
+            &:nth-child(3) {
+              font-size: 40px;
+            }
+        }
+      }
+      
+  }  
+
+}

@@ -1,0 +1,90 @@
+div.panel {
+  width: 100%;
+  position: relative;
+  margin-top: 1%;
+}
+
+div.panel h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+div.panel div.buttonZone {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 1%;
+}
+
+div.panel div.buttonZone button {
+  width: 20%;
+  padding: 10px;
+  font-size: 36px;
+  border: teal 3px solid;
+  background-color: transparent;
+  border-radius: 999px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+div.panel div.editZone {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+div.panel div.editZone form input {
+  width: 30px;
+  background-color: whitesmoke;
+}
+
+div.panel div.editZone h3 {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+}
+
+div.panel div.info {
+  width: 100%;
+}
+
+div.panel div.info div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+div.panel div.info div i {
+  font-size: 40px;
+}
+
+div.panel div.info div h1 {
+  margin: 0;
+}
+
+div.panel div.info div h1:nth-child(1) {
+  font-size: 40px;
+}
+
+div.panel div.info div h1:nth-child(2) {
+  font-size: 40px;
+}
+
+div.panel div.info div h1:nth-child(3) {
+  font-size: 40px;
+}
+/*# sourceMappingURL=panel.css.map */
